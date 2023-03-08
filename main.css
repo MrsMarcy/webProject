@@ -1,0 +1,32 @@
+body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background-image: url(space.png);
+    color:aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.header {
+    padding: 5px 5px 5px 5px;
+    background-color:#2D3033;
+    
+}
+h1{
+    text-align:center;
+}
+ul li {
+    list-style-type:none;
+    display:inline;
+}
+li a {
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    margin: 0 20px 0 20px;
+}
+ul {
+    text-align:center;
+}
+h3{
+    text-align: center;
+}
