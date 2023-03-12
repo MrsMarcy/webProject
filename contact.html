@@ -3,14 +3,38 @@
     <head>
         <title>call meeeee teehee</title>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <hr/>
-        <p>Here's a link to my <a href="https://github.com/MrsMarcy">git hub!</a></p>
+        <div class="header">
+            <ul class="tabs">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="form">
+            <h4>Contact Us!</h4>
+            <form class="contact">
+                <table>
+                    <tr>
+                        <td><label for="firstName">First Name: </label></td>
+                        <td><input type="text" id="firstName" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName">Last Name: </label></td>
+                        <td><input type="text" id="lastName" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for ="coolEmail">Email: </label></td>
+                        <td><input type="email" id="coolEmail" placeholder="example@abc.org"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="submit"><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </body>
 </html> 
