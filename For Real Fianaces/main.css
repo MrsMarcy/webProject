@@ -1,0 +1,77 @@
+a, body, h1, h2, h3, h4 ,h5, h6, nav, ul, li, html, p, span, div, button{
+    margin:0;
+    padding:0;
+    border:0;
+    
+}
+body {
+    background-color:#FEF9EF;
+}
+.nav-bar {
+    text-align: right;
+    background-color: orange;
+    padding: 12px;
+}
+.nav-bar p {
+    float:left;
+    color:#FEF9EF;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+ul li {
+    display: inline;
+    list-style-type:none;
+}
+li a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    padding-top:10px;
+    color:#FEF9EF;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+li a:last-child {
+    margin-right: 35px;
+}
+span {
+    margin-top: 1em;
+    display: inline-block;
+}
+#boxes {
+    display:inline-block;
+    text-align: center;
+}
+.card{
+    width:275px;
+    font-family: 'Open Sans', sans-serif;
+    color:gray;
+    border: 3px solid #FFD580;
+    background-color: white;
+    margin: 50px 15px 0 15px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    float:left;
+}
+.card p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.card h2 {
+    margin:10px;
+}
+.thing {
+    clear:both;
+    text-align: center;
+}
+button {
+    background-color: #FFD580;
+    margin:10px;
+    padding: 5px 94px;
+    font-family: 'Open Sans', sans-serif;
+    color:gray;
+    font-size: 15px;
+    display: inline;
+}
