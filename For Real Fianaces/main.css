@@ -11,14 +11,16 @@ body {
     text-align: right;
     background-color: orange;
     padding: 12px;
+    display: flex;
+    justify-content: space-between;
 }
 .nav-bar p {
-    float:left;
+    align-items: flex-start;
     color:#FEF9EF;
     font-size: 20px;
     margin-left: 20px;
     font-family: 'PT Sans Narrow', sans-serif;
-
+ 
 }
 ul li {
     display: inline;
@@ -42,6 +44,10 @@ span {
 #boxes {
     display:inline-block;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .card{
     width:275px;
@@ -53,7 +59,7 @@ span {
     text-align: left;
     padding: 10px;
     border-radius: 10px;
-    float:left;
+    
 }
 .card p {
     margin-left: 20px;
