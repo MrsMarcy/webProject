@@ -1,0 +1,148 @@
+*, p {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(cutting-board.jpg);
+    background-position: 0 -300px;
+    background-repeat: no-repeat;
+    background-size: cover auto;
+}
+/* navigation bar at the time*/
+.nav-bar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin:25px 50px 5px 50px;
+    font-weight: bold;
+    
+}
+.nav-bar h4 {
+    font-size: 25px;
+}
+.nav-bar ul {
+    align-items: flex-end;
+}
+.nav-bar li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    margin: auto 50px;
+    background-color: white;
+    height: 2px;
+}
+/* title page*/
+#top, #bottom {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#top h1 {
+    font-size: 110px;
+    margin-top: 275px;
+    margin-bottom: 10px;
+}
+#middle {
+    margin: auto;
+    width: 300px;
+    height: 3px;
+    background-color: white;
+}
+#bottom h2 {
+    margin: auto 15px 454px 15px;
+    font-size: 35px;
+}
+/*Black Bar part*/
+#part1 {
+    background-color: black;
+    margin: 0;
+    display: flex;
+}
+#part1 img{
+    max-width: 40%;
+    height: auto;
+}
+#content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#content-1 p {
+    font-size: 30px;
+    color:white;
+    margin: 30px 75px;
+}
+#content-1 h2 {
+    font-size: 50px;
+    color:white;
+    align-self: flex-start;
+    margin-left: 75px;
+}
+/*Gray Bar part*/
+#part2 {
+    background-color: #18191a;
+    margin: 0;
+    display: flex;
+}
+#part2 img{
+    max-width: 40%;
+    height: auto;
+}
+#content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#content-2 p {
+    font-size: 30px;
+    color:white;
+    margin: 30px 75px;
+}
+#content-2 h2 {
+    font-size: 50px;
+    color:white;
+    align-self: flex-start;
+    margin-left: 75px;
+}
+/*light gray Bar part*/
+#part3 {
+    background-color: #202020;
+    margin: 0;
+    display: flex;
+}
+#part3 img{
+    max-width: 40%;
+    height: auto;
+}
+#content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#content-3 p {
+    font-size: 30px;
+    color:white;
+    margin: 30px 75px;
+}
+#content-3 h2 {
+    font-size: 50px;
+    color:white;
+    align-self: flex-start;
+    margin-left: 75px;
+}
