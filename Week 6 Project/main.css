@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body { 
+    background-color: #F2F0EB;
+}
+header {
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+hr {
+    width: 80px;
+    height: 3px;
+    background-color: black;
+    margin: 15px 0 10px 0;
+}
+.card {
+    margin: auto 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px 200px;
+    padding: 15px 0 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.item {
+    display: inline-block;
+    margin: auto auto;
+    font-size: 25px;
+    width: 33%;
+}
+#dark {
+    margin-left: 200px;
+    padding: 13px;
+    font-size: 23px;
+    background-color: #F2F0EB;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+/* DARK MODE THINGS */
+.darkMode{
+    background-color: #222222;
+    color: white;
+}
+.darkMode .card {
+    background-color: #555555;
+    box-shadow: 0 4px 8px 0 rgb(173, 173, 173), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.darkMode #dark {
+    background-color: #222222;
+    color:white;
+}
+.darkMode hr {
+    background-color: white;
+}
