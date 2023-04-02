@@ -67,7 +67,7 @@ const storeItems = [
     },
 ];
 storeItems.forEach(function(item){
-    if (item.inStock === true){
+    if (item.inStock){
         $('#cardContainer').append(`<div class="card"><p class="item">$${item.price}</p></div>`)
         $('#cardContainer div').last().append(`<p class="item">${item.name}</p>`)
         $('#cardContainer div').last().append(`<p class="item">${item.details}</p>`)
