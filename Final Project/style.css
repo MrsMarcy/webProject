@@ -1,0 +1,134 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+body {
+    background-color: #f6f6f6;
+    margin: 0 300px 50px 300px;
+}
+#header {
+    margin-right: 300px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+h2 {
+    font-weight: normal;
+    font-size: 50px;
+}
+#move {
+    margin: 25px;
+}
+.spacer {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 210px;
+}
+#main {
+    display: block;
+    background-color: #eeeeee;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+img {
+    width: 75px;
+    height: auto;
+}
+.comment {
+    display: flex;
+    background-color: #f6f6f6;
+    padding: 20px 20px 35px 20px;
+    margin: 20px;
+    height: auto;
+}
+.image {
+    display: inline-block;
+    height: max-content;
+
+}
+.normal {
+    display: inline-block;
+    margin-left: 15px;
+    width:100%;
+}
+.normal p {
+    font-size: 30px;
+}
+.normal h4, .link .delete, .link .edit {
+    display: inline;
+    font-size: 15px;
+    font-weight: normal;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.link {
+    float:right;
+    user-select: none;
+}
+
+.link .delete, .link ,.edit {
+    color:#a9d6e4;
+    background: none;
+    cursor: pointer;
+}
+#prompt {
+    position: fixed;
+    bottom: 0;
+    left:300px;
+    right:300px;
+    background-color: white;
+    padding: 30px;
+}
+#name, #comment2 {
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#submit {
+    font-size: 30px;
+    color:#a9d6e4;
+    background: none;
+    cursor: pointer;
+    float: right;
+}
+#comment2 {
+    width: 65%;
+}
+#name{
+    width: 12%;
+}
+input[type=text] {
+    padding:10px;
+}
+#output{
+    font-size: 20px;
+}
+
+.submit1 {
+    font-size: 20px;
+    color:#a9d6e4;
+    background: none;
+    cursor: pointer;
+}
+.comment1{
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    font-size: 13px; 
+      width: 90%;
+}
+.noDisplay {
+    display: none;
+}
